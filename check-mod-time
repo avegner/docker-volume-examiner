@@ -1,0 +1,3 @@
+check-mod-time: volume-examiner
+	@touch $@
+	@exit 1
