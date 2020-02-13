@@ -1,0 +1,3 @@
+check-image-freshness: Dockerfile
+	@touch $@
+	@exit 1
